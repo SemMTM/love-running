@@ -37,6 +37,21 @@ header a {
     color: inherit;
 }
 
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* Nav bar styling */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
 /* H1 Heading styling */
 h1 {
     font-family: "Roboto", sans-serif;
