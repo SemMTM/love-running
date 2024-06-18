@@ -24,7 +24,12 @@ body {
 
 /* Header */
 header {
-    background-color: lightblue;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 10px #797979;
 }
 
 /* H1 Heading styling */
