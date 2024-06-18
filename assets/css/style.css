@@ -96,6 +96,7 @@ main {
     background-color: lightpink;
     /* Make main element take up surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 40px;
 }
 
 /* footer */
