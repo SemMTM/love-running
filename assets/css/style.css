@@ -204,6 +204,23 @@ main {
     line-height: 0;
 }
 
+/* Sign Up Page Styles */
+#signup {
+    margin: 20px 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+#signup-radio-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#signup-form > br {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
 /* footer */
 footer {
     background-color: #ffffff;
