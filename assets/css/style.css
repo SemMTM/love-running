@@ -165,6 +165,15 @@ main {
     justify-content: center;
 }
 
+/* Meet up times section styles */
+#times {
+    background: url("../images/dublin-city.webp") no-repeat top center / cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
 /* footer */
 footer {
     background-color: #ffffff;
