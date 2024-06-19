@@ -123,13 +123,28 @@ main {
 /* Reasons Section Styles */
 #reasons {
     margin: 20px auto;
-    background-color: orange;
 }
 
 #reasons h2 {
     font-size: 280%;
     text-align: center;
     margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#reasons p {
+    padding: 5px 20px;
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits {
+    margin: 10px 10px;
+}
+
+#benefits div {
+    margin-bottom: 20px; 
+    line-height: 20px;
 }
 
 /* footer */
