@@ -205,20 +205,58 @@ main {
 }
 
 /* Sign Up Page Styles */
-#signup {
-    margin: 20px 10%;
+#signup-page-main {
     display: flex;
     flex-direction: column;
+}
+
+#signup {
+    background: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10%;
+}
+
+#signup-form {
+    padding: 30px 30px;
+    background-color: rgba(60, 60, 60, 0.6);
+    color: #ffffff;
+}
+
+#signup-text-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-text-form > input {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 25px;
+    border-radius: 2px;
+    border: 1px solid #fafafa;
+    background: transparent;
 }
 
 #signup-radio-buttons {
     display: flex;
     justify-content: space-between;
+    width: 100%;
 }
 
-#signup-form > br {
-    margin-top: 5px;
-    margin-bottom: 20px;
+.join-button {
+    padding: 15px 32px;
+    margin-top: 20px;
+    border-radius: 2px;
+    background-color: #454b1b;
+    color: #fafafa;
+    font-size: 100%;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
 }
 
 /* footer */
@@ -311,6 +349,17 @@ footer {
     #photos {
         column-count: 3;
     }
+
+    /* Sign Up Page */
+    #signup {
+        padding-top: 150px;
+        padding-left: 10%;
+    }
+
+    #signup-form {
+        max-width: 400px;
+    }
+
 }
 
 /* Media query: small laptops and larger */
