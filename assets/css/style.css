@@ -239,6 +239,10 @@ main {
     background: transparent;
 }
 
+#signup-text-form > input:hover {
+    border-color: #f16c6b;
+}
+
 #signup-radio-buttons {
     display: flex;
     justify-content: space-between;
@@ -358,6 +362,7 @@ footer {
 
     #signup-form {
         max-width: 400px;
+        position: absolute;
     }
 
 }
